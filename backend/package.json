@@ -1,0 +1,26 @@
+{
+  "name": "tickethive-backend",
+  "version": "1.0.0",
+  "description": "REST API for TicketHive - an event ticket marketplace",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "jwt",
+    "rest-api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.9.3"
+  }
+}
